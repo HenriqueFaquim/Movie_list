@@ -29,13 +29,13 @@ const Home = ({searchValueProp}) => {
     }, [searchValueProp]);
 
     return (
-        <section className="Home">
+        <div className="Home">
             {movies.map(({id: id,title: title,vote_average: vote_average,poster_path: poster_path,overview: overview})=>(
                 <MovieCard key={id} title={title} score={vote_average} svg={poster_path} description={overview} id={id}/>
             ))
 
             }
-        </section>
+        </div>
     );
 }
 
