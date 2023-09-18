@@ -1,0 +1,41 @@
+.MovieDetail{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: rgb(29, 22, 75);
+    color: white;
+    img{
+        width: 25rem;
+        margin: 2rem 4rem;
+    }
+    &__Details{
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: auto;
+        h1{
+        margin-bottom: 15rem;
+        }
+    }
+    &__Details__plus{
+        justify-content: space-around;
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 20px;
+    }
+
+    a{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 15rem;
+        text-align: center;
+        margin-top: 2rem;
+        text-decoration: none;
+        color: white;
+        padding: 1rem 5rem;
+        background-color: darkslateblue;
+        border-radius: 25px;
+        border: none;
+    }
+
+}
